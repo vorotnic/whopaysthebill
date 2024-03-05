@@ -25,9 +25,9 @@ const MyProvider = (props) => {
       });
     } else {
       setStage(2);
-      // setTimeout(() => {
-      generateLooser();
-      // }, 100);
+      setTimeout(() => {
+        generateLooser();
+      }, 2000);
       console.log(stage);
     }
   };
