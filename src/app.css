@@ -1,15 +1,14 @@
-
-h1 { 
-  font-family: 'Pacifico', cursive;
-  color: #DB3EB1;
+h1 {
+  font-family: "Pacifico", cursive;
+  color: #db3eb1;
   text-decoration: underline;
-  text-decoration-color: #41B6E6;
+  text-decoration-color: #41b6e6;
   font-style: italic;
 }
 
 button.miami {
-  background-color:#41B6E6 !important;
-  border-color:#52a7c9 !important;
+  background-color: #41b6e6 !important;
+  border-color: #52a7c9 !important;
   margin-top: 10px;
 }
 
@@ -20,7 +19,7 @@ button.miami {
 }
 
 .wrapper {
-  height:100vh;
+  height: 100vh;
   display: grid;
 }
 .center-wrapper {
@@ -33,11 +32,11 @@ button.miami {
   overflow-y: scroll;
 }
 
-.Toastify{
-  position:fixed;
+.Toastify {
+  position: fixed;
 }
 
-.badge{
+.badge {
   cursor: pointer;
 }
 
@@ -56,7 +55,6 @@ button.miami {
 .action_button.btn_2 {
   right: 200px;
 }
-
 
 .result_wrapper {
   text-align: center;
