@@ -1,4 +1,4 @@
-import { useState, createContext, prevState } from "react";
+import { useState, createContext } from "react";
 import { toast, ToastContainer } from "react-toastify";
 const MyContext = createContext();
 
