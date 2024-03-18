@@ -28,7 +28,6 @@ const MyProvider = (props) => {
       setTimeout(() => {
         generateLooser();
       }, 2000);
-      console.log(stage);
     }
   };
 
